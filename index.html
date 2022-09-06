@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="setup.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/77fbeab9e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li><a href="#home" id="home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="brand">
+          <h1><span>-ARO-</span>RA <span class="jewel">Jewelers</span></h1>
+        </div>
+      </div>
+      <!-- ./wrapper -->
+
+      <aside class="flexContainer">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+        </ul>
+      </aside>
+    </header>
+
+    <main>
+      <section class="handCrafted darkBackground" id="about">
+        <div class="flexContainer wrapper">
+          <div class="imageContainer">
+            <img
+              src="./assets/image-6@2x.png"
+              srcset="
+                ./assets/kyle-frederick-1042416-unsplash.jpg 810w,
+                ./assets/image-6@2x.png                      811w
+              "
+              sizes="(max-width: 1023px) 810px, 811px"
+              alt="A hand holding several rings over a table"
+            />
+          </div>
+          <!-- ./imageContainer -->
+
+          <div class="textBox">
+            <h2>Hand crafted</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut,
+              sapiente amet. Suscipit natus exercitationem sint maiores nisi,
+              fuga minima inventore similique veritatis? Ducimus voluptates
+              numquam veritatis repudiandae ab! Consequatur, beatae? Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Sapiente, nihil non!
+              Dolor adipisci ipsum natus. Magnam, voluptatibus repudiandae cum
+              vitae eos in nobis doloremque nemo necessitatibus voluptates neque
+              quasi voluptatum! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Vitae deleniti numquam, debitis dolores totam
+              enim tenetur, unde neque sunt labore omnis at fuga necessitatibus
+              exercitationem laudantium iusto, doloribus id perspiciatis?
+            </p>
+            <button class="button">Read more</button>
+          </div>
+          <!-- ./textBox -->
+        </div>
+        <!-- ./flexContainer -->
+      </section>
+      <!-- ./handcrafted -->
+
+      <section class="gallerySection">
+        <div class="textBox wrapper">
+          <h2>Lastest Collection</h2>
+
+          <div class="galleryContainer" id="gallary">
+            <div class="card">
+              <img
+                src="./assets/image-2_2@2x.png"
+                alt="a row of necklaces hanging"
+              />
+            </div>
+
+            <div class="card">
+              <img
+                src="./assets/image-4@2x.png"
+                alt="One ring wrapped around a second smaller ring."
+              />
+            </div>
+
+            <div class="card">
+              <img src="./assets/image-3.jpg" alt="Pearl and gold earings" />
+            </div>
+            <!-- media query display:none -->
+          </div>
+        </div>
+      </section>
+
+      <section class="darkBackground">
+        <div class="wrapper">
+          <div class="midIconContainer flexContainer">
+            <a href="#" class="midIconLink"
+              ><i class="fa-solid fa-images midIcon"></i>Catalogue</a
+            >
+            <a href="#" class="midIconLink">
+              <i class="fa-regular fa-calendar-days midIcon"></i>Events</a
+            >
+            <a href="#" class="midIconLink"
+              ><i class="fa-regular fa-handshake midIcon"></i>Collaborations</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sustainContainer">
+          <div class="sustainContent wrapper flexContainer textBox" id="blog">
+            <div>
+              <h2>Sustainable <br />Materials</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptas dolorem quidem consequatur earum molestias ullam facere
+                suscipit! Tempora soluta quisquam aliquam vero autem sint, velit
+                consequuntur non animi dolorem deserunt.
+              </p>
+              <button class="button">Read more</button>
+            </div>
+          </div>
+          <img
+            src="./assets/andie-gomez-acebo-744590-unsplash.jpg"
+            srcset="./assets/image-2@2x.png 810w
+                ./assets/andie-gomez-acebo-744590-unsplash.jpg 811w"
+            sizes="(max-width: 810px) 810px, 811px"
+            alt="A blonde person wearing two necklaces"
+          />
+        </div>
+        <!-- ./sustainContainer -->
+      </section>
+
+      <section>
+        <div class="mixContainer">
+          <img src="./assets/image-2-copy@2x.png" alt="" />
+          <div class="mixContent wrapper flexContainer textBox">
+            <div>
+              <h2>Mix & Match</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique quod incidunt aut in voluptas sequi voluptatum hic
+                expedita quae et error pariatur eveniet sed est corrupti
+                possimus ipsum, eius laudantium?
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+        <!--mixContainer -->
+      </section>
+    </main>
+
+    <footer class="darkBackground">
+      <div class="footContainer wrapper">
+        <div class="footContent">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#gallary">Gallary</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footSub flexContainer">
+          <h3>Stay Updated</h3>
+          <p>Subscribe to our newsletter to stay updated</p>
+          <form action="" method="get" class="emailAd">
+            <input
+              class="emailInput"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+            <div class="email">
+              <input class="subscribeButton" type="submit" value="Subscribe" />
+            </div>
+          </form>
+        </div>
+
+        <div class="footConact flexContainer" id="contact">
+          <h3>Contact</h3>
+          <p>
+            info@email.com | 123-456-7890 <br />123 some road, Toronto, ON
+            <br />A5A 5A5,Canada
+          </p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright © 2022 Juno College</p>
+      </div>
+    </footer>
+  </body>
+</html>
